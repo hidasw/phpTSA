@@ -1,0 +1,60 @@
+[Mon Aug 20 2018 14:21:07] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:21:51] [MAIN] [error] [client localhost (127.0.0.1)] Can't select signer
+                                                                         Row result = 0
+                                                                         MySQL say
+[Mon Aug 20 2018 14:22:08] [MAIN] [error] [client localhost (127.0.0.1)] Can't select signer
+                                                                         Row result = 0
+                                                                         MySQL say
+[Mon Aug 20 2018 14:22:09] [MAIN] [error] [client localhost (127.0.0.1)] Can't select signer
+                                                                         Row result = 0
+                                                                         MySQL say
+[Mon Aug 20 2018 14:22:27] [MAIN] [error] [client localhost (127.0.0.1)] Can't select signer
+                                                                         Row result = 0
+                                                                         MySQL say
+[Mon Aug 20 2018 14:22:43] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:22:56] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:23:48] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:23:48] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:23:56] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:23:56] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:25:05] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:25:05] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:25:10] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:25:11] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:25:41] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:25:41] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:26:24] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:26:24] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:27:44] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:27:53] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:28:39] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 14:32:55] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 19:34:02] [MAIN] [info] [client localhost (127.0.0.1)] malformedRequest: request length (0) < 39 char. User agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+[Mon Aug 20 2018 19:34:10] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 19:36:45] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 19:36:45] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 19:40:21] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 19:40:22] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 19:40:30] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 19:40:31] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 19:40:39] [MAIN] [error] [client localhost (127.0.0.1)] Database connection Error
+                                                                         : Error: ::dbconnect (F:\xampp\htdocs\tsa\dbconnect.php:9). mysql error connect to "localhost:3306". MySQL say: No connection could be made because the target machine actively refused it.
+                                                                         
+[Mon Aug 20 2018 19:40:44] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 20:27:23] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 20:27:23] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 20:27:29] [MAIN] [error] [client localhost (127.0.0.1)] Database connection Error
+                                                                         : Error: ::dbconnect (F:\xampp\htdocs\tsa\dbconnect.php:9). mysql error connect to "localhostaa:3306". MySQL say: php_network_getaddresses: getaddrinfo failed: No such host is known.
+[Mon Aug 20 2018 20:27:32] [MAIN] [error] [client localhost (127.0.0.1)] Database connection Error
+                                                                         : Error: ::dbconnect (F:\xampp\htdocs\tsa\dbconnect.php:9). mysql error connect to "localhostaa:3306". MySQL say: php_network_getaddresses: getaddrinfo failed: No such host is known.
+[Mon Aug 20 2018 20:54:37] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 20:54:37] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 21:46:15] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 21:46:15] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 21:46:25] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 21:46:32] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 21:46:32] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 22:18:12] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 22:18:13] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 22:38:49] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Mon Aug 20 2018 22:38:49] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
