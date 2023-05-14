@@ -1,5 +1,5 @@
 # php timestamping authority
-TSA (Timestamp authority) RFC3161 server with php.
+TSA (Timestamp authority) RFC3161 server responder with php.
 Without composer and phpseclib, pure PHP.
 Included certs is for testing purpose.
 Tested with:
