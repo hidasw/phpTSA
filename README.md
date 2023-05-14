@@ -1,5 +1,4 @@
-# phptsa
-php timestamping authority
+# php timestamping authority
 TSA (Timestamp authority) server with php.
 Included certs is for testing purpose.
 Tested with:
