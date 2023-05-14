@@ -4,9 +4,10 @@
 /* Recode at 21:51 Sore 28/01/2009 */
 /* Recode at 19:55 Sore 01/03/2009 */
 /* Recode at 21:46 Sore 23/03/2009 */
+/* Recode at Minggu 14 Mei 2023 21:05:35 Sore */
 
 define("TSA_NAME", "TSA0");
-if($PARSED_REQ['nonce'] != false) { // cek nonce
+if(array_key_exists('nonce', $PARSED_REQ)) { // cek nonce
   $reqNonce = int($PARSED_REQ['nonce']);
 } else {
   $reqNonce = false;
@@ -25,7 +26,7 @@ if(array_key_exists('crls', $TSA)) {
   $crlAttached = explicit("1", $crlAttached);
 }
 
-if(!$signerCertId = x509_get_pubkeys($TSA['signer']['cert'])) {
+if(!$signerCertId = x509_get_pubkeys($TSA['signer'])) {
   tsalog("x509_get_pubkeys failed\nOn ".__FILE__."(".__LINE__.")", 'e');
   exit;
 }
@@ -62,7 +63,7 @@ $TSTInfo = seq(
               );
 
 $TSTInfo_hash = hash(TSA_HASHALGORITHM, hex2bin($TSTInfo)); // custom hash dr DER encoding TSTinfo
-$certSignerFingerprint = hash('sha1', get_cert($TSA['signer']['cert'])); // sha1 hash dr DER encoding sertifikat TSA
+$certSignerFingerprint = hash('sha1', get_cert($TSA['signer'])); // sha1 hash dr DER encoding sertifikat TSA
 
 $signedinfo = seq(
                   OBJ_pkcs9_contentType.
@@ -119,7 +120,7 @@ $to_encrypt = seq(
                   oct($signedinfo_hash)
                   );
 
-if(!@openssl_private_encrypt(hex2bin($to_encrypt), $crypted, $TSA['signer']['pkey'])) {
+if(!@openssl_private_encrypt(hex2bin($to_encrypt), $crypted, $TSA['signer'])) {
   tsalog("Failed to signing\n".__FILE__."(".__LINE__.")", 'e');
   exit;
 }
@@ -156,7 +157,7 @@ $tst = seq(
                                           )
                                   ).
                               explicit("0",
-                                      bin2hex(get_cert($TSA['signer']['cert'])).
+                                      bin2hex(get_cert($TSA['signer'])).
                                       bin2hex($extraCerts) // Sertifikat utk disertakan +
                                       ).
                                       $crlAttached.  // Crl utk disertakan +
@@ -188,21 +189,25 @@ $tst = seq(
              )
           );
 
-//$tst = bin2hex(file_get_contents('mod_tsa-token.der'));
 $respOut = hex2bin($tst);
 header('Content-Length: '.strlen($respOut));
+// $respOut = base64_encode($respOut);
 
 echo $respOut; // Tampilkan hasil TimeStamp
 
-tsaDbLog('0', $TSAserial, $TimeStamp, 'Success', $req, $respOut);
-
-$h = fopen(getcwd()."/lastReq0.der", "w");
-fwrite($h, $req);
+$h = fopen(getcwd()."/serial.txt", "w");
+fwrite($h, $TSAserial);
 fclose($h);
 
-$h = fopen(getcwd()."/lastResp0.der", "w");
-fwrite($h, $respOut);
-fclose($h);
+// $h = fopen(getcwd()."/lastReq0.der", "w");
+// fwrite($h, $req);
+// fclose($h);
+
+// $h = fopen(getcwd()."/lastResp0.der", "w");
+// fwrite($h, $respOut);
+// fclose($h);
+
+
 
 tsalog("Response Successfull. Hash alg:".TSA_HASHALGORITHM, 'i');
 

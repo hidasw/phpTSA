@@ -4,11 +4,10 @@
 // but based on req structure
 
 // Last change at 21:30 Sore Rabu 08 Juli 2009
+// Last change at Minggu 14 Mei 2023 21:05:45 Sore
 
 define("TSA_NAME", "TSA1");
 $crlAttached = false;
-//echo "<pre>";
-//print_r($TSA['crls']);
 if(array_key_exists('crls', $TSA)) { 
   foreach($TSA['crls'] as $crlnum=>$crl) {
         $parseCrl = getcrldate($crl);
@@ -23,7 +22,7 @@ if(array_key_exists('crls', $TSA)) {
                               );
 }
 
-if(!$signerCertId = x509_get_pubkeys($TSA['signer']['cert'])) {
+if(!$signerCertId = x509_get_pubkeys($TSA['signer'])) {
   tsalog("x509_get_pubkeys failed\nOn ".__FILE__."(".__LINE__.")", 'e');
   exit;
 }
@@ -64,7 +63,7 @@ $to_encrypt = seq(
                   oct($authenticatedAttributes_hash)
                   );
 
-if(!@openssl_private_encrypt(hex2bin($to_encrypt), $crypted, $TSA['signer']['pkey'])) {
+if(!@openssl_private_encrypt(hex2bin($to_encrypt), $crypted, $TSA['signer'])) {
   tsalog("Failed to signing\n".__FILE__."(".__LINE__.")", 'e');
   exit;
 }
@@ -88,7 +87,7 @@ $res = seq(
                           ).
                       $PARSED_REQ['contents']['hex'].
                       explicit('0',
-                              bin2hex(get_cert($TSA['signer']['cert'])).
+                              bin2hex(get_cert($TSA['signer'])).
                               bin2hex($extraCerts)
                               ).
                               $crlAttached.
@@ -123,14 +122,13 @@ $response = hex2bin($res);
 $respOut = base64_encode($response);
 echo $respOut;
 
-$h = fopen(getcwd().'/lastReq1.der', 'w');
-fwrite($h, $req);
-fclose($h);
+// $h = fopen(getcwd().'/lastReq1.der', 'w');
+// fwrite($h, $req);
+// fclose($h);
 
-$h = fopen(getcwd().'/lastResp1.der', 'w');
-fwrite($h, chunk_split($respOut));
-fclose($h);
+// $h = fopen(getcwd().'/lastResp1.der', 'w');
+// fwrite($h, chunk_split($respOut));
+// fclose($h);
 
 tsalog("Response Successfull. Hash alg:".TSA_HASHALGORITHM, 'i');
-tsaDbLog('1', null, $TimeStamp, 'Successfull', $req, $respOut);
 ?>

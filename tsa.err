@@ -1,60 +1,61 @@
-[Mon Aug 20 2018 14:21:07] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:21:51] [MAIN] [error] [client localhost (127.0.0.1)] Can't select signer
-                                                                         Row result = 0
-                                                                         MySQL say
-[Mon Aug 20 2018 14:22:08] [MAIN] [error] [client localhost (127.0.0.1)] Can't select signer
-                                                                         Row result = 0
-                                                                         MySQL say
-[Mon Aug 20 2018 14:22:09] [MAIN] [error] [client localhost (127.0.0.1)] Can't select signer
-                                                                         Row result = 0
-                                                                         MySQL say
-[Mon Aug 20 2018 14:22:27] [MAIN] [error] [client localhost (127.0.0.1)] Can't select signer
-                                                                         Row result = 0
-                                                                         MySQL say
-[Mon Aug 20 2018 14:22:43] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:22:56] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:23:48] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:23:48] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:23:56] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:23:56] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:25:05] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:25:05] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:25:10] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:25:11] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:25:41] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:25:41] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:26:24] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:26:24] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:27:44] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:27:53] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:28:39] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 14:32:55] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 19:34:02] [MAIN] [info] [client localhost (127.0.0.1)] malformedRequest: request length (0) < 39 char. User agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-[Mon Aug 20 2018 19:34:10] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 19:36:45] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 19:36:45] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 19:40:21] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 19:40:22] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 19:40:30] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 19:40:31] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 19:40:39] [MAIN] [error] [client localhost (127.0.0.1)] Database connection Error
-                                                                         : Error: ::dbconnect (F:\xampp\htdocs\tsa\dbconnect.php:9). mysql error connect to "localhost:3306". MySQL say: No connection could be made because the target machine actively refused it.
-                                                                         
-[Mon Aug 20 2018 19:40:44] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 20:27:23] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 20:27:23] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 20:27:29] [MAIN] [error] [client localhost (127.0.0.1)] Database connection Error
-                                                                         : Error: ::dbconnect (F:\xampp\htdocs\tsa\dbconnect.php:9). mysql error connect to "localhostaa:3306". MySQL say: php_network_getaddresses: getaddrinfo failed: No such host is known.
-[Mon Aug 20 2018 20:27:32] [MAIN] [error] [client localhost (127.0.0.1)] Database connection Error
-                                                                         : Error: ::dbconnect (F:\xampp\htdocs\tsa\dbconnect.php:9). mysql error connect to "localhostaa:3306". MySQL say: php_network_getaddresses: getaddrinfo failed: No such host is known.
-[Mon Aug 20 2018 20:54:37] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 20:54:37] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 21:46:15] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 21:46:15] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 21:46:25] [TSA0] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 21:46:32] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 21:46:32] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 22:18:12] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 22:18:13] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 22:38:49] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Mon Aug 20 2018 22:38:49] [TSA1] [info] [client localhost (127.0.0.1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 15:52:52] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 15:52:52] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 15:54:09] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 15:54:09] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 15:54:13] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 15:54:13] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 15:54:24] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 15:54:24] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 15:54:26] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 15:54:26] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 15:54:27] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 15:54:27] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 15:54:35] [TSA1] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 15:54:35] [TSA1] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 15:54:53] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 15:54:53] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 15:55:29] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 15:55:29] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 15:55:31] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 15:55:31] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:02:17] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:02:17] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:02:25] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:02:25] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:02:30] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:02:30] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:02:38] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:02:38] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:02:41] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:02:41] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:07:40] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:07:40] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:07:44] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:07:44] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:07:46] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:07:46] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:07:49] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:07:49] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:07:55] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:07:55] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:07:58] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:07:58] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:08:08] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:08:08] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:08:11] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:08:11] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:09:24] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:09:24] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:10:35] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:10:35] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:10:40] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:10:40] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:10:44] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:10:44] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:13:30] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:13:30] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:16:34] [MAIN] [info] [client www.hdalabs.net (127.0.0.1)] malformedRequest: request length (0) < 39 char. User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+[Sun May 14 2023 16:16:52] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:16:52] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
+[Sun May 14 2023 16:17:01] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
+[Sun May 14 2023 16:17:01] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1

@@ -157,7 +157,7 @@ function tsa_parsereqstd($binreq) {
     $tsReq['nonce'] = $tsr[1];
     $tsr = next($timestampRequest);
   }
-  if($tsr[0] == '01') {
+  if(@$tsr[0] == '01') {
     $tsReq['certReq'] = $tsr[1];
     $tsr = next($timestampRequest);
   }
@@ -213,48 +213,14 @@ function difftime($in) {
   return $totime-$fromtime;
 }
 
-function tsaDbLog($core, $serial, $ts, $status, $req, $resp) { // 16:01 Sore 25/03/2009
-  $userAgent = @$_SERVER["HTTP_USER_AGENT"];
-  $host = gethostbyaddr($_SERVER['REMOTE_ADDR'])."({$_SERVER['REMOTE_ADDR']})";
-  $headers = false;
-  if($userAgent == false) {
-    $userAgent = "n/a";
-  }
-  if(function_exists("http_get_request_headers")) {
-    $getHeaders = http_get_request_headers();
-    foreach($getHeaders as $headerK=>$headerV) {
-      $headers .= "$headerK : $headerV\n";
-    }
-  } elseif(function_exists("headers_list")) {
-    $getHeaders = headers_list();
-    foreach($getHeaders as $headerK=>$headerV) {
-      $headers .= "$headerV\n";
-    }
-  } else {
-    $headers = "n/a";
-  }
-  if($serial == null) {
-    $serial = 'null';
-  }
-  global $MySQL;
-  if($sql = mysqli_query($MySQL, "insert into `".TSA_TABLELOGS."`(`tsa-core`,`serialNumber`,`timeStamp`,`hostName`,`userAgent`,`headers`,`respStatus`,`request`,`response`)
-                         values ('$core',$serial,'$ts','$host','$userAgent','$headers','$status', 0x".bin2hex($req).", 0x".bin2hex($resp).")")) {
-  
-  } else {
-    tsaLog(mysql_error());
-  }
-}
-
 function get_cert($certin) { // Read x.509 DER/PEM Certificate and return DER encoded x.509 Certificate
   if($rsccert = openssl_x509_read ($certin)) {
     openssl_x509_export ($rsccert, $cert);
-    openssl_x509_free ($rsccert);
     return x509_pem2der($cert);
   } else {
     $pem = x509_der2pem($certin);
     if($rsccert = openssl_x509_read ($pem)) {
       openssl_x509_export ($rsccert, $cert);
-      openssl_x509_free ($rsccert);
       return x509_pem2der($cert);
     } else {
       return false;
@@ -273,7 +239,6 @@ function x509_pem2der($pem) {  // This function convert x509 pem certificate to 
   $x509_der = false;
   if($x509_res = @openssl_x509_read($pem)) {
     openssl_x509_export ($x509_res,  $x509_pem);
-    openssl_x509_free ($x509_res);
 
     $arr_x509_pem = explode("\n", $x509_pem);
     $numarr = count($arr_x509_pem);
@@ -369,7 +334,7 @@ function UTCTIME($time) {
   $ret = "170d".bin2hex($time)."5a";
   return $ret;
 }
-function EXPLICIT($num="0", $hex)  {
+function EXPLICIT($num, $hex)  {
   $ret = "a$num".asn1_header($hex).$hex;
   return $ret;
 }

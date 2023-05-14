@@ -32,16 +32,10 @@
 <pre style="font-family: Arial; font-size: 10pt"><h1 align="center"><font size="4">TimeStamp Server Administration page</font></h1><?php
 //include '../parseCfg.php';
 include '../config.php';
-include '../dbconnect.php';
 $tsaConfig = tsa_config('../tsa.cfg');
 if(!is_array($tsaConfig)) {
   echo "ERROR: $tsaConfig";
   exit;
-}
-if(!is_object(@$db = dbconnect())) {
-  echo "<font color='red'><b>MySQL Connect Error :</b>$db</font>\n";
-} else {
-  echo "<font color='green'><b>MySQL Connected</b></font>\n";
 }
 if(@$_GET['v'] == 'main' || !@$_GET['v']) {
 echo"<b><a href='?v=log'>Log</a></b><div id='topmsg'></div>
