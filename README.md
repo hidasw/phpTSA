@@ -1,5 +1,5 @@
 # php timestamping authority
-TSA (Timestamp authority) server with php.
+TSA (Timestamp authority) RFC3161 server with php.
 Included certs is for testing purpose.
 Tested with:
  JSignPdf
