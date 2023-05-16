@@ -1,5 +1,18 @@
 <?php
 // create 03:29 Esuk 03/09/2009
+function tsaLogfile($data, $filename) {
+	$t = microtime(true);
+	$micro = sprintf("%06d",($t - floor($t)) * 1000000);
+	$d = new DateTime( date('Y-m-d H:i:s.'.$micro, intval($t)) );
+	$d->setTimezone(new DateTimeZone('Asia/Jakarta'));
+	$date = $d->format("Y-m-d_H.i.s.u");
+	$h = fopen(realpath('.').'/log/'.$date.'_'.$filename,'w');
+	fwrite($h, $data);
+	fclose($h);
+	
+} // 14:48 Sore 16/05/2023
+
+
 function tsaLog($str, $type = 'i') { // 12:40 Sore 09/07/2009
   $dateFormat = date("D M d Y H:i:s");
   if(!defined('TSA_NAME')) {

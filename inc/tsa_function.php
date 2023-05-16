@@ -149,11 +149,11 @@ function tsa_parsereqstd($binreq) {
   } else {
     return false;
   }
-  if($tsr[0] == '06') {
+  if(@$tsr[0] == '06') {
     $tsReq['reqPolicy'] = $tsr[1];
     $tsr = next($timestampRequest);
   }
-  if($tsr[0] == '02') {
+  if(@$tsr[0] == '02') {
     $tsReq['nonce'] = $tsr[1];
     $tsr = next($timestampRequest);
   }

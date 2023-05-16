@@ -31,7 +31,7 @@
 <body>
 <pre style="font-family: Arial; font-size: 10pt"><h1 align="center"><font size="4">TimeStamp Server Administration page</font></h1><?php
 //include '../parseCfg.php';
-include '../config.php';
+include '../inc/tsa_config.php';
 $tsaConfig = tsa_config('../tsa.cfg');
 if(!is_array($tsaConfig)) {
   echo "ERROR: $tsaConfig";

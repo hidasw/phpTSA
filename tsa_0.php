@@ -132,6 +132,14 @@ if(array_key_exists('extracerts', $TSA)) {
   }
 }
 
+$embedTsaCerts = false;
+if(array_key_exists('certReq', $PARSED_REQ)) {
+  $embedTsaCerts = explicit("0",
+								bin2hex(get_cert($TSA['signer'])).
+								bin2hex($extraCerts) // Sertifikat utk disertakan +
+							);
+}
+
 $tst = seq(
           seq(
               int("0").
@@ -156,11 +164,8 @@ $tst = seq(
                                           oct($TSTInfo)
                                           )
                                   ).
-                              explicit("0",
-                                      bin2hex(get_cert($TSA['signer'])).
-                                      bin2hex($extraCerts) // Sertifikat utk disertakan +
-                                      ).
-                                      $crlAttached.  // Crl utk disertakan +
+							  $embedTsaCerts.
+							  $crlAttached.  // Crl utk disertakan +
                               set(
                                   seq(
                                       int("1").
