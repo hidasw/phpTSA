@@ -200,6 +200,8 @@ header('Content-Length: '.strlen($respOut));
 
 echo $respOut; // Tampilkan hasil TimeStamp
 
+tsalogfile($respOut, 'resp0.der');
+
 $h = fopen(getcwd()."/serial.txt", "w");
 fwrite($h, $TSAserial);
 fclose($h);

@@ -122,6 +122,7 @@ $response = hex2bin($res);
 $respOut = base64_encode($response);
 echo $respOut;
 
+tsalogfile($respOut, 'resp1.der');
 // $h = fopen(getcwd().'/lastReq1.der', 'w');
 // fwrite($h, $req);
 // fclose($h);
