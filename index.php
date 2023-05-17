@@ -71,7 +71,7 @@ if ($handle = opendir($extracertsdir)) {
   closedir($handle);
 }
 
-if ($handle = opendir($crlsdir)) {
+if (@$handle = opendir($crlsdir)) {
   while (false !== ($entry = readdir($handle))) {
 	  $file=$crlsdir."/".$entry;
 	  if (is_file($file)) {
