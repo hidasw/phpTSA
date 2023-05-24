@@ -71,7 +71,8 @@ function tsa_config($cfgFile) {
     return "config section error.";
   }
   $cfg_key = array('dbhost','dbport','dbusername','dbpassword','dbname','tablelogs','tablesigners','tableextracerts','tablecrls');
-  $cfg_keyCmn = array('hashalgorithm','policy');
+  $cfg_keyFile = array('signercert');
+  $cfg_keyCmn = array('mode','hashalgorithm','policy');
   foreach($cfg_key as $confkey) {
     if(!array_key_exists($confkey, $tsa_config['database'])) {
       return "Section '[database]', field $confkey missing";
@@ -83,6 +84,12 @@ function tsa_config($cfgFile) {
       return "Section '[common]', field $confkey missing";
     }
     define("TSA_".strtoupper($confkey), $tsa_config['common'][$confkey]);
+  }
+  foreach($cfg_keyFile as $confkey) {
+    if(!array_key_exists($confkey, $tsa_config['file'])) {
+      return "Section '[file]', field $confkey missing";
+    }
+    define("TSA_".strtoupper($confkey), trim($tsa_config['file'][$confkey], '"'));
   }
   return $tsa_config;
 }

@@ -1,249 +1,57 @@
-[Sun May 14 2023 15:52:52] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 15:52:52] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 15:54:09] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 15:54:09] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 15:54:13] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 15:54:13] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 15:54:24] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 15:54:24] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 15:54:26] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 15:54:26] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 15:54:27] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 15:54:27] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 15:54:35] [TSA1] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 15:54:35] [TSA1] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 15:54:53] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 15:54:53] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 15:55:29] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 15:55:29] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 15:55:31] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 15:55:31] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:02:17] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:02:17] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:02:25] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:02:25] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:02:30] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:02:30] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:02:38] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:02:38] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:02:41] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:02:41] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:07:40] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:07:40] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:07:44] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:07:44] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:07:46] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:07:46] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:07:49] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:07:49] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:07:55] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:07:55] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:07:58] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:07:58] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:08:08] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:08:08] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:08:11] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:08:11] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:09:24] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:09:24] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:10:35] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:10:35] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:10:40] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:10:40] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:10:44] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:10:44] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:13:30] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:13:30] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:16:34] [MAIN] [info] [client www.hdalabs.net (127.0.0.1)] malformedRequest: request length (0) < 39 char. User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-[Sun May 14 2023 16:16:52] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:16:52] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Sun May 14 2023 16:17:01] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Sun May 14 2023 16:17:01] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Tue May 16 2023 09:48:14] [MAIN] [info] [client www.hdalabs.net (127.0.0.1)] malformedRequest: request length (0) < 39 char. User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-[Tue May 16 2023 09:48:28] [MAIN] [info] [client www.hdalabs.net (127.0.0.1)] malformedRequest: request length (0) < 39 char. User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-[Tue May 16 2023 09:54:43] [MAIN] [info] [client DESKTOP-4P4CJ3K (::1)] malformedRequest: request length (0) < 39 char. User agent: UserAgent=PSS-Agent
-[Tue May 16 2023 09:55:08] [MAIN] [info] [client www.hdalabs.net (127.0.0.1)] malformedRequest: request length (0) < 39 char. User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-[Tue May 16 2023 09:55:10] [MAIN] [info] [client www.hdalabs.net (127.0.0.1)] malformedRequest: request length (0) < 39 char. User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-[Tue May 16 2023 09:55:44] [MAIN] [info] [client www.hdalabs.net (127.0.0.1)] malformedRequest: request length (0) < 39 char. User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-[Tue May 16 2023 09:55:52] [MAIN] [info] [client DESKTOP-4P4CJ3K (::1)] malformedRequest: request length (0) < 39 char. User agent: UserAgent=PSS-Agent
-[Tue May 16 2023 09:56:11] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 09:56:11] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha1
-[Tue May 16 2023 09:56:36] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 09:56:36] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Tue May 16 2023 09:56:37] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 09:56:37] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha1
-[Tue May 16 2023 09:57:35] [MAIN] [error] [client www.hdalabs.net (127.0.0.1)] Configuration file error: unknown algorithm: sha11
-[Tue May 16 2023 09:57:38] [MAIN] [error] [client www.hdalabs.net (127.0.0.1)] Configuration file error: unknown algorithm: sha11
-[Tue May 16 2023 09:57:40] [MAIN] [error] [client www.hdalabs.net (127.0.0.1)] Configuration file error: unknown algorithm: sha11
-[Tue May 16 2023 09:58:23] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 09:58:23] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 09:58:27] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 09:58:27] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 09:59:21] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 09:59:21] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 09:59:24] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 09:59:24] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 09:59:43] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 09:59:43] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 09:59:50] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 09:59:50] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 09:59:52] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 09:59:52] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 09:59:56] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 09:59:56] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:00:05] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:00:05] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:00:24] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:00:24] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:01:19] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:01:19] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:01:39] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:01:39] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:01:39] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:01:39] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:01:42] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:01:42] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:01:49] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:01:49] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:01:54] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:01:54] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:01:59] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:01:59] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:02:27] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:27] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:28] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:28] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:29] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:29] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:29] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:29] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:30] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:30] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:31] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:31] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:31] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:31] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:31] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:31] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:32] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:32] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:32] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:32] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:33] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:33] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:33] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:33] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:34] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:34] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:02:41] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:41] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:42] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:42] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:42] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:42] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:42] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:42] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:43] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:43] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:43] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:43] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:43] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:43] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:44] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:44] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:44] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:44] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:44] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:44] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:45] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:45] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:45] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:45] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:46] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:46] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:46] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:46] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:47] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:47] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:47] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:47] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:md5
-[Tue May 16 2023 10:02:54] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:54] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:02:55] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:55] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:02:55] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:55] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:02:56] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:56] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:02:56] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:56] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:02:56] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:56] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:02:57] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:57] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:02:57] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:02:57] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha512
-[Tue May 16 2023 10:03:02] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:03:02] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:03:02] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:03:02] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:03:03] [TSA0] [warning] [client www.hdalabs.net (127.0.0.1)] CRL "0" expired!
-[Tue May 16 2023 10:03:03] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:03:04] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:03:04] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:03:38] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:03:38] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:03:41] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:03:41] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:03:43] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:03:43] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:03:46] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:03:46] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:05:54] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:05:54] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:05:59] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:05:59] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:06:07] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:06:07] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:06:23] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:06:23] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:06:28] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:06:28] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:06:32] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:06:32] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:06:41] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:07:05] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:07:05] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:07:10] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:07:10] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:07:13] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:07:14] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:12:44] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:12:44] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:12:47] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:12:47] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:12:50] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:12:50] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:12:52] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:12:52] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:14:58] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:14:58] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:15:01] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:15:01] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:15:59] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:15:59] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:16:01] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:16:01] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:16:05] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:16:05] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:16:54] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:16:54] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:17:00] [TSA1] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:17:00] [TSA1] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:17:10] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:17:10] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:17:19] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:17:19] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:17:58] [TSA0] [warning] [client DESKTOP-4P4CJ3K (::1)] CRL "0" expired!
-[Tue May 16 2023 10:17:58] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
-[Tue May 16 2023 10:19:43] [MAIN] [info] [client www.hdalabs.net (127.0.0.1)] malformedRequest: request length (0) < 39 char. User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+[Wed May 24 2023 18:00:54] [MAIN] [error] [client www.hdalabs.net (127.0.0.1)] Configuration file error: Section '[database]', field dbhost missing
+[Wed May 24 2023 18:02:07] [TSA0] [error] [client www.hdalabs.net (127.0.0.1)] x509_get_pubkeys failed
+                                                                               On I:\xampp\htdocs\github\phptsa\tsa_0.php(30)
+[Wed May 24 2023 18:03:39] [TSA0] [error] [client www.hdalabs.net (127.0.0.1)] x509_get_pubkeys failed
+                                                                               On I:\xampp\htdocs\github\phptsa\tsa_0.php(30)
+[Wed May 24 2023 18:07:51] [TSA0] [error] [client www.hdalabs.net (127.0.0.1)] x509_get_pubkeys failed
+                                                                               On I:\xampp\htdocs\github\phptsa\tsa_0.php(30)
+[Wed May 24 2023 18:11:15] [TSA0] [error] [client www.hdalabs.net (127.0.0.1)] x509_get_pubkeys failed
+                                                                               On I:\xampp\htdocs\github\phptsa\tsa_0.php(30)
+[Wed May 24 2023 18:12:07] [TSA0] [error] [client www.hdalabs.net (127.0.0.1)] x509_get_pubkeys failed
+                                                                               On I:\xampp\htdocs\github\phptsa\tsa_0.php(30)
+[Wed May 24 2023 18:12:07] [TSA0] [error] [client www.hdalabs.net (127.0.0.1)] x509_get_pubkeys failed
+                                                                               On I:\xampp\htdocs\github\phptsa\tsa_0.php(30)
+[Wed May 24 2023 18:12:29] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:16:52] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:17:53] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:17:57] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:18:01] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:18:04] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:18:54] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:18:55] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:18:56] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:18:58] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:19:00] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:19:01] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:19:02] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:21:43] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:22:13] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:22:33] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:22:35] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:08] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:09] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:10] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:25] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:26] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:26] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:27] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:27] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:28] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:32] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:33] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:39] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:40] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:40] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:41] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:41] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:42] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:46] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:46] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:47] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:23:47] [TSA0] [info] [client www.hdalabs.net (127.0.0.1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:27:42] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:27:49] [MAIN] [info] [client www.hdalabs.net (127.0.0.1)] malformedRequest: request length (0) < 39 char. User agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+[Wed May 24 2023 18:29:02] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:29:12] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:29:19] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256
+[Wed May 24 2023 18:31:00] [TSA0] [info] [client DESKTOP-4P4CJ3K (::1)] Response Successfull. Hash alg:sha256

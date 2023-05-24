@@ -18,27 +18,18 @@ if(!is_array($cfg)) {
   header("HTTP/1.0 500 Internal Server Error");
   exit;
 }
-// echo "<pre>";
-// print_r(get_defined_constants(1)['user']);
 //$req = $HTTP_RAW_POST_DATA;
 $req = file_get_contents("php://input");
 // testing purpose
-// $req = file_get_contents("log/req.der");
+//$req = file_get_contents("log/rq.der");
 
 tsalogfile($req, 'req.der');
-// $header = print_r(apache_request_headers(),1);
-// $h = fopen('reqheader.txt','w');
-// fwrite($h, $header);
-// fclose($h);
 
 
 
 if(empty($req) || strlen($req) < 39) {
   tsalog("malformedRequest: request length (".strlen($req).") < 39 char. User agent: {$_SERVER["HTTP_USER_AGENT"]}", 'i');
-  // header("HTTP/1.0 403 Forbidden");
-  // echo "========".$req;
-  // http_response_code(500);
-  // header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);
+   header("HTTP/1.0 403 Forbidden");
   exit;
 }
 
@@ -53,9 +44,13 @@ if(!defined('OBJ_'.TSA_HASHALGORITHM)) {
 $certsdir=realpath('certs');
 $extracertsdir=realpath('certs/extracerts');
 $crlsdir=realpath('certs/crls');
-$signer = file_get_contents($certsdir.'/signer.pem');
+$signer = file_get_contents($certsdir."/".TSA_SIGNERCERT);
 if(openssl_x509_read($signer) && openssl_pkey_get_private($signer)) {
-$TSA['signer'] = $signer;
+  $TSA['signer'] = $signer;
+} else {
+  tsalog("openssl_x509_read signer error!! ".TSA_HASHALGORITHM, 'e');
+  header("HTTP/1.0 500 Internal Server Error");
+  exit;
 }
 
 if ($handle = opendir($extracertsdir)) {
@@ -82,17 +77,10 @@ if (@$handle = opendir($crlsdir)) {
   closedir($handle);
 }
 
-// echo "<pre>";
-// print_r($TSA);
 $TSA['serial'] = file_get_contents('serial.txt');
   
-// echo file_get_contents('openssl_r.txt');
 
 if($PARSED_REQ = tsa_parsereq($req, $use_tsa)) {
-	// print_r($PARSED_REQ);
-	// $h = fopen('lastReq.der','w');
-	// fwrite($h, $req);
-  // fclose($h);
   if($use_tsa == 1) {
     include 'tsa_0.php'; // rfc3161 (pdf signing etc)
   }
