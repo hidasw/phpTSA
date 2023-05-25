@@ -120,6 +120,10 @@ $res = seq(
 
 $response = hex2bin($res);
 $respOut = base64_encode($response);
+header('Server: Hda');
+header('Content-Length: '.strlen($respOut));
+header('Content-Type: application/timestamp-reply');
+
 echo $respOut;
 
 tsalogfile($respOut, 'resp1.der');

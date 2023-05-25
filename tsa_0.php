@@ -195,7 +195,9 @@ $tst = seq(
           );
 
 $respOut = hex2bin($tst);
+header('Server: Hda');
 header('Content-Length: '.strlen($respOut));
+header('Content-Type: application/timestamp-reply');
 // $respOut = base64_encode($respOut);
 
 echo $respOut; // Tampilkan hasil TimeStamp
