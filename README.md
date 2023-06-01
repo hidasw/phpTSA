@@ -8,5 +8,4 @@ Tested with:
 	signtool (work with /t and /tr option)
 	Sign GUI
 	Ascertia pdf sign and seal
- 
-very welcome to everyone who wants to improve this.
+
